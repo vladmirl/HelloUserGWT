@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE hibernate-mapping PUBLIC
+    "-//Hibernate/Hibernate Mapping DTD 3.0//EN"
+    "http://www.hibernate.sourceforge.net/hibernate-mapping-3.0.dtd">
+    <hibernate-mapping>
+        
+        <class name =" com.vladimir.nextstep.server" table = "users">
+            
+            <id name ="userLogin" column = "login">
+                
+                <generator class="assigned"/>
+               
+            </id>
+            
+            <property name = "userName" column = "name"/>
+            <property name = "userPassword" column = "password"/>
+
+        </class>
+        
+    </hibernate-mapping>
