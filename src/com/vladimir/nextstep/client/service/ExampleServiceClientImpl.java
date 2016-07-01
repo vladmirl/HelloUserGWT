@@ -25,11 +25,11 @@ public class ExampleServiceClientImpl extends Composite implements ExampleServic
 		endpoin.setServiceEntryPoint(url);
 		
 		this.mainGui = new BindingUI(this);
-		 Image img1 = new Image("/myImages/Logo-ARDAS.png");
-		 Image img2 = new Image("/myImages/futer.png");
+		 Image img1 = new Image("/myImages/img-9.gif");
+		 Image img2 = new Image("/myImages/banner.jpg");
 		 
-		 img1.setPixelSize(750, 200);
-			img2.setPixelSize(750, 70);
+		 img1.setPixelSize(750, 280);
+			img2.setPixelSize(750, 130);
 			this.vPanel.setPixelSize(750, 550);
 		this.vPanel.add(img1);
 		this.vPanel.add(mainGui);

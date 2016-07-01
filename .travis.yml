@@ -1,9 +1,0 @@
-language: java
-jdk:
-    - oraclejdk8
-services:
-  - mysql
-  -gwt-2.7.0
-  -hibernate-release-5.2.0.Final  
-install: true
-

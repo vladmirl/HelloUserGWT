@@ -4,7 +4,7 @@
     "http://www.hibernate.sourceforge.net/hibernate-mapping-3.0.dtd">
     <hibernate-mapping>
         
-        <class name =" com.vladimir.nextstep.server" table = "users">
+        <class name =" com.vladimir.nextstep.server.UserInfo" table = "users">
             
             <id name ="userLogin" column = "login">
                 
